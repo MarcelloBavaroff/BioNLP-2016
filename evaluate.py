@@ -44,16 +44,15 @@ if  __name__ =='__main__':
     
     #filePath=os.path.join(os.path.dirname(__file__), 'w2vData', 'PubMed15_Dependancy1.txt') #PubMed-w2v.bin #PubMed-and-PMC-w2v.bin
     
-    evafilePath=[os.path.join(os.path.dirname(__file__), 'wvlib/word-similarities/MayoSRS', 'MayoSRS.txt'),
-                 os.path.join(os.path.dirname(__file__), 'wvlib/word-similarities/UMNSRS', 'UMNSRS-sim.txt'),\
-                 os.path.join(os.path.dirname(__file__), 'wvlib/word-similarities/UMNSRS', 'UMNSRS-rel.txt')]
+    evafilePath=[os.path.join(os.path.dirname(__file__), 'wvlib/word-similarities/srs uniTO', 'MayoSRStorino.txt'),
+                 os.path.join(os.path.dirname(__file__), 'wvlib/word-similarities/srs uniTO', 'UMNSRStorino.txt')]
     
     from tools import utilities as util
-    config = CommandLine()
+    #config = CommandLine()
     #from word2Vec import tools as util
-    if os.path.isfile(config.inputFile):
+    if os.path.isfile("vectors_calarota.txt"):
         try:
-            wv = wvlib.load(config.inputFile).normalize()
+            wv = wvlib.load("vectors_calarota.txt").normalize()
             #references = [(r, eva.read_referenceSingleWords(r)) for r in evafilePath]
             references = [(r, eva.read_reference(r)) for r in evafilePath]
             print '%20s\trho\tmissed\ttotal\tratio' % 'dataset'
@@ -64,9 +63,9 @@ if  __name__ =='__main__':
                 print '%20s\t%.4f\t%d\t%d\t(%.2f%%)' % \
                 (eva.baseroot(name), rho, miss, total, 100.*miss/total)
         except FormatError:
-            print "skip",config.inputFile
+            print "skip","vectors_calarota.txt"
     else:
-            folderList=util.get_filepaths(config.inputFile)
+            folderList=util.get_filepaths("vectors_calarota.txt")
             for i,item in enumerate(folderList):
                 filename, file_extension = os.path.splitext(item)
                 #print i,item
