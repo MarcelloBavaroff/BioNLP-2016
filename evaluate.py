@@ -8,7 +8,7 @@ Created on 4 Dec 2015
 import os
 
 from wvlib import wvlib
-from wvlib import evalrank2 as eva
+from wvlib import evalrank as eva
 import sys
 from mailbox import FormatError
 reload(sys)  
@@ -45,7 +45,10 @@ if  __name__ =='__main__':
     #filePath=os.path.join(os.path.dirname(__file__), 'w2vData', 'PubMed15_Dependancy1.txt') #PubMed-w2v.bin #PubMed-and-PMC-w2v.bin
     
     evafilePath=[os.path.join(os.path.dirname(__file__), 'wvlib/word-similarities/srs uniTO', 'MayoSRStorino.txt'),
-                 os.path.join(os.path.dirname(__file__), 'wvlib/word-similarities/srs uniTO', 'UMNSRStorino.txt')]
+                 os.path.join(os.path.dirname(__file__), 'wvlib/word-similarities/srs uniTO', 'MayoSRStorino2.txt'),
+                 os.path.join(os.path.dirname(__file__), 'wvlib/word-similarities/srs uniTO', 'UMNSRStorino.txt'),
+                 os.path.join(os.path.dirname(__file__), 'wvlib/word-similarities/srs uniTO', 'UMNSRStorino2.txt')
+                 ]
     
     from tools import utilities as util
     #config = CommandLine()
