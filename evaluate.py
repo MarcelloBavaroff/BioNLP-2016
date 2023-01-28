@@ -8,7 +8,7 @@ Created on 4 Dec 2015
 import os
 
 from wvlib import wvlib
-from wvlib import evalrank as eva
+from wvlib import evalrank2 as eva
 import sys
 from mailbox import FormatError
 reload(sys)  
@@ -41,7 +41,7 @@ class CommandLine:
     
 if  __name__ =='__main__':
 
-    
+    file = "vectors_opusITA_min5_ep20.txt"
     #filePath=os.path.join(os.path.dirname(__file__), 'w2vData', 'PubMed15_Dependancy1.txt') #PubMed-w2v.bin #PubMed-and-PMC-w2v.bin
     
     evafilePath=[os.path.join(os.path.dirname(__file__), 'wvlib/word-similarities/srs uniTO', 'MayoSRStorino.txt'),
@@ -50,9 +50,9 @@ if  __name__ =='__main__':
     from tools import utilities as util
     #config = CommandLine()
     #from word2Vec import tools as util
-    if os.path.isfile("vectors_calarota.txt"):
+    if os.path.isfile(file):
         try:
-            wv = wvlib.load("vectors_calarota.txt").normalize()
+            wv = wvlib.load(file).normalize()
             #references = [(r, eva.read_referenceSingleWords(r)) for r in evafilePath]
             references = [(r, eva.read_reference(r)) for r in evafilePath]
             print '%20s\trho\tmissed\ttotal\tratio' % 'dataset'
@@ -63,9 +63,9 @@ if  __name__ =='__main__':
                 print '%20s\t%.4f\t%d\t%d\t(%.2f%%)' % \
                 (eva.baseroot(name), rho, miss, total, 100.*miss/total)
         except FormatError:
-            print "skip","vectors_calarota.txt"
+            print "skip", file
     else:
-            folderList=util.get_filepaths("vectors_calarota.txt")
+            folderList=util.get_filepaths(file)
             for i,item in enumerate(folderList):
                 filename, file_extension = os.path.splitext(item)
                 #print i,item

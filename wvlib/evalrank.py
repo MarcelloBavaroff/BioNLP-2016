@@ -66,6 +66,7 @@ def evaluate(wv, reference):
 
     gold, predicted = [], []
     num_features = wv.config.vector_dim
+    multyword = 0
 
     # dict1=defaultdict(list)
     for words, sim in sorted(reference, key=lambda ws: ws[1]):
@@ -77,6 +78,7 @@ def evaluate(wv, reference):
                 v1, v2 = wv[words[0]], wv[words[1]]
                 # print words[0],words[1] ,"\t",v1[0],"\t",v2[0]
             else:
+                multyword += 1
                 v1 = numpy.zeros((num_features,), dtype='float32')
                 v2 = numpy.zeros((num_features,), dtype='float32')
 
@@ -101,7 +103,7 @@ def evaluate(wv, reference):
     simlist = lambda ws: [s for w, s in ws]
 
     rho, p = spearmanr(simlist(gold), simlist(predicted))
-
+    #print "multiword " + str(multyword)
     return (rho, len(gold))
 
 
@@ -130,53 +132,7 @@ def evaluateTest(wv, reference, wordList):
         newSim = (cosine(v1, v2)) * weight[0] + 1 / distance.seuclidean(v1, v2, variance) * weight[1]
         predicted.append((words, cosine(v1, v2)))  # this function have problem when v1 v2 are very similar
 
-    #         for i in range(1):
-    #             newSim=(cosine(v1, v2)) * weight[0] +  1/distance.seuclidean(v1,v2,variance) * weight[1]
-    #             dict1["newSim"].append((words, newSim))
-    #
-    #
-    #             newSim=1/distance.seuclidean(v1,v2,variance)
-    #             dict1["seuclidean"].append((words, newSim))
-    #
-    #             newSim=1/distance.minkowski(v1,v2,3)
-    #             dict1["minkowski"].append((words, newSim))
-    #
-    #             newSim=1/distance.chebyshev(v1,v2)
-    #             dict1["chebyshev"].append((words, newSim))
-    #
-    #             newSim=1/distance.canberra(v1,v2)
-    #             dict1["canberra"].append((words, newSim))
-    #
-    #             newSim=1/distance.braycurtis(v1,v2)
-    #             dict1["braycurtis"].append((words, newSim))
-    #
-    #             newSim=1/distance.cityblock(v1,v2)
-    #             dict1["cityblock"].append((words, newSim))
-    #
-    #             newSim=(1-distance.correlation(v1,v2))/2
-    #             dict1["correlation"].append((words, newSim))
-    #
-    #             newSim=1/distance.cosine(v1,v2)
-    #             dict1["cosine"].append((words, newSim))
-    #
-    #             newSim=1/distance.hamming(v1,v2)
-    #             dict1["hamming"].append((words, newSim))
 
-    #             newSim=1/distance.euclidean(v1,v2)
-    #             dict1["Euclidean"].append((words, newSim))
-
-    #         print words, newSim, distance.seuclidean(v1,v2,variance), cosine(v1, v2)\
-    #          , distance.minkowski(v1,v2,3),distance.chebyshev(v1,v2) , distance.canberra(v1,v2),\
-    #          distance.braycurtis(v1,v2),distance.cityblock(v1,v2),(1-distance.correlation(v1,v2))/2,\
-    #          distance.cosine(v1,v2),distance.hamming(v1,v2),distance.euclidean(v1,v2)
-    # print words[0],words[1],cosine(v1, v2)
-    #         if words[0].strip() in wordList.keys(): # words[0]= word in eva, wordList = word retrofitted
-    #             #print " intersection between keys:",words[0]
-    #             counter+=1
-    #             targetList=wordList[words[0].strip()]
-    #             if words[1] in targetList:
-    #                 print words[0],words[1],targetList
-    # print words[0],"\t","\t".join(str(e) for e in wordList[words[0]])
     print "intersection between updated word vector and Eva.Set: ", counter
     simlist = lambda ws: [s for w, s in ws]
     #     for word,sim in gold:
