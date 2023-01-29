@@ -453,7 +453,7 @@ proteinuria	lisinopril	926.5
 sbavare	levodopa	800.75
 pallore	albumine	528.75
 sifilide	gonorrea	1132.25
-cataratta	dolore alla scapola	288.5
+cataratta	dolore scapola	288.5
 epilessia	lorazepam	836.5
 adenite	stridore	666.25
 pirosi	famotidina	893.5
@@ -521,7 +521,7 @@ mannitolo	paracetamolo	223
 otite	meningismo	567
 clono	amfebutamone	317.5
 anemia	clopidogrel	539.5
-oli di pesce	sinvinolina	809.5
+oli pesce	sinvinolina	809.5
 nocturia	etanolo	680.25
 debolezza	cortisone	682
 dislipidemia	costipazione	318.5

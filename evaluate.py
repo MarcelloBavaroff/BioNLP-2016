@@ -41,7 +41,7 @@ class CommandLine:
     
 if  __name__ =='__main__':
 
-    file = "vectors_wiki-opus_min4_ep10.txt"
+    file = "vectors_wiki-opus_min4_ep20.txt"
     #filePath=os.path.join(os.path.dirname(__file__), 'w2vData', 'PubMed15_Dependancy1.txt') #PubMed-w2v.bin #PubMed-and-PMC-w2v.bin
     
     evafilePath=[os.path.join(os.path.dirname(__file__), 'wvlib/word-similarities/srs uniTO', 'MayoSRStorino.txt'),

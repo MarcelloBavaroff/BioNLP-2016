@@ -75,7 +75,7 @@ protrombina	siringa	1.77
 mieloma multiplo	depressione	1.08
 diabete	nodulo reumatoide	1
 chetoacidosi	lupus	1.23
-stenosi tracheale	cancro al colon	1
+stenosi tracheale	cancro colon	1
 sinusite	sinusoide	2.85
 cirrosi criptogenica	gastrina	1
 scompenso cardiaco	psicosi	1

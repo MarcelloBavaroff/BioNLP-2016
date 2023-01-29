@@ -92,7 +92,7 @@ def evaluate(wv, reference):
             v2 = numpy.divide(v2, len(words2))
 
         except KeyError:
-            print words[0] + "    " + words[1]
+            #print words[0] + "    " + words[1]
             continue
 
         gold.append((words, sim))
