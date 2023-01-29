@@ -28,7 +28,7 @@ metadone	tramadolo	663.5
 diabete	psoriasi	412
 sbiancamento	pallore	1180.75
 assetato	frusemide	935.25
-Fotosensibilizzazione	afonia	284.25
+fotosensibilizzazione	afonia	284.25
 poliuria	chiluria	189.5
 psoriasi	meningismo	222.25
 virilismo	sbavare	543
@@ -182,7 +182,7 @@ cirrosi	anemia	727.5
 cefepime	estetica	648.25
 vaiolo	vaccinia	721.5
 inedia	dolore intermestruale	145.5
-Fotosensibilizzazione	dermatite	957.75
+fotosensibilizzazione	dermatite	957.75
 desametasone	actonel	472
 epatite	paracetamolo	880.25
 ischemia	sbavare	468.75
@@ -281,7 +281,7 @@ dislipidemia	stenocardia	806
 giardiasi	avitaminosi	422
 attacchi	aloe vera	167.75
 sertralina	fluossetina	1138.75
-peritonitis	atassia	281.75
+peritonite	atassia	281.75
 actonel	alendronato	1276.5
 artralgia	chiluria	201
 dita ippocratiche	costipazione	167.75
@@ -383,7 +383,7 @@ tromboembolia	dispnea	962.5
 epatite	epatomegalia	910.25
 iperacusia	afonia	431.75
 trombocitopenia	pirosi	328.5
-appendicite	peritonitis	934.75
+appendicite	peritonite	934.75
 metatarsalgia	colchicina	792.25
 bandemia	granulocitosi	683.25
 norepinefrina	propofol	784
@@ -410,7 +410,7 @@ iperossia	orlistat	343.5
 mal d'aria	osteoporosi	206.5
 costipazione	diltiazem	178.75
 candidiasi	micosi	1151.25
-sinvinolina	oli di pesce	923.5
+sinvinolina	oli pesce	923.5
 comatoso	anossemia	668
 stenocardia	cardialgia	863
 vasculiti	convulsioni	372.5
