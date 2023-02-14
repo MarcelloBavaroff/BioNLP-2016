@@ -4,7 +4,7 @@ cardiomiopatia	paracetamolo	241
 herpes	ipertiroidismo	142.5
 mal mare	nausea	870.75
 coccidioidomicosi	istoplasmosi	981.25
-stenocardia	clopidogrel	673.75
+stenocardia	plavix	673.75
 ondansetrone	ipecacuana	294.25
 attacchi	insulina	332.75
 setticemia	dispnea	434.5
@@ -27,7 +27,7 @@ cataratta	sibili	217.25
 metadone	tramadolo	663.5
 diabete	psoriasi	412
 sbiancamento	pallore	1180.75
-assetato	frusemide	935.25
+assetato	furosemide	935.25
 fotosensibilizzazione	afonia	284.25
 poliuria	chiluria	189.5
 psoriasi	meningismo	222.25
@@ -65,11 +65,11 @@ dislipidemia	colestiramina	889.5
 rabbia	acne	256.25
 peste	adenite	816.25
 alcooli	disulfiram	743
-codeina	nalossone	578.5
-warfarina	aspirina	1019.75
+codeina	naloxone	578.5
+warfarin	aspirina	1019.75
 vancomicina	glipizide	829.25
 coccidiosi	meningite	791.25
-pallore	warfarina	638.25
+pallore	warfarin	638.25
 aneurisma	osteoporosi	231.25
 ischemia	metoprololo	823.75
 flatulenza	glucagone	727.5
@@ -102,7 +102,7 @@ glaucoma	fibrillazione	276
 mal mare	mal d'auto	893.25
 artralgia	dita ippocratiche	317.5
 emofilia	glipizide	169
-disuria	clopidogrel	212.5
+disuria	plavix	212.5
 sforzo insufficiente	virilismo	294.5
 aneurisma	sulfadiazina argentica	340.5
 colchicina	prednisolone	851.25
@@ -122,7 +122,7 @@ leucopenia	cefacloro	343
 istoplasmosi	prednisolone	290
 neuropatia	costipazione	477.25
 dita ippocratiche	dispnea	930.75
-emiplegia	clopidogrel	704.5
+emiplegia	plavix	704.5
 micosi	atorvastatina	300.5
 reumatismi	colchicina	775.25
 dispnea	penicillina	384
@@ -144,7 +144,7 @@ ischemia	aloe vera	253.5
 bronchite	singulair	737.25
 atorvastatina	lovastatina	1174.75
 pneumonite	debolezza	633.75
-spasmo	frusemide	415.75
+spasmo	furosemide	415.75
 torcicollo	eritromicina	343
 dermatite	allergia	1188
 sulfadiazina argentica	chetamina	293.75
@@ -156,7 +156,7 @@ colite	epilessia	163
 diabete	polidipsia	1031.5
 chetonuria	inedia	1225.25
 attacchi	acido valproico	911
-gonorrea	clopidogrel	173
+gonorrea	plavix	173
 multivitamine	vitamina b1	893
 ipotiroidismo	debolezza	904.75
 talassemia	emoglobinopatie	1307
@@ -174,7 +174,7 @@ spasmo	opistotono	665.75
 diarrea	cefacloro	508.75
 ceftazidima	ceftriaxone	1086.5
 dolore	morfina	996.75
-nalossone	fentanil	484.25
+naloxone	fentanil	484.25
 vasculiti	emiplegia	363.5
 colchicina	probenecid	1098.75
 losartan	valsartan	1243.5
@@ -194,11 +194,11 @@ ronchi	rantoli	1075.5
 stanchezza	atenololo	537
 aterosclerosi	stenocardia	936
 epatite	ematemesi	778
-nalossone	morfina	571.5
+naloxone	morfina	571.5
 diarrea	colchicina	794.5
 miosite	miopatia	1103
 bronchite	loperamide	242.75
-disuria	ciproflossacina	615.5
+disuria	ciprofloxacina	615.5
 levofloxacina	moxifloxacina	1120.25
 iperacusia	bleomicina	607.5
 cloramfenicolo	ceftriaxone	652.75
@@ -211,8 +211,8 @@ schistosomiasi	dossazosina	201.75
 polidipsia	poliuria	1135.5
 cirrosi	atorvastatina	390.5
 stridore	russare	646.5
-atenololo	frusemide	708.25
-prostatismo	ciproflossacina	744.5
+atenololo	furosemide	708.25
+prostatismo	ciprofloxacina	744.5
 disidratazione	dissenteria	925.75
 enalapril	lisinopril	1280
 iperemesi	carboplatino	765.25
@@ -244,12 +244,12 @@ atenololo	metoprololo	1279.25
 emaciamento	cachessia	1290.25
 afonia	dolore intermestruale	214.25
 inedia	anoressia	1176.75
-blefarospasmo	warfarina	207.75
+blefarospasmo	warfarin	207.75
 ampicillina	amoxicillina	1238
 stenocardia	diarrea	270.75
-frusemide	mannitolo	658.5
+furosemide	mannitolo	658.5
 uremia	piorrea	551
-incontinenza	frusemide	739.5
+incontinenza	furosemide	739.5
 tromboembolia	eparina	969.75
 esoftalmo	prostatismo	243.5
 uremia	aspirina	256
@@ -280,18 +280,18 @@ intontito	vertigine	1287
 dislipidemia	stenocardia	806
 giardiasi	avitaminosi	422
 attacchi	aloe vera	167.75
-sertralina	fluossetina	1138.75
+sertralina	fluoxetina	1138.75
 peritonite	atassia	281.75
 actonel	alendronato	1276.5
 artralgia	chiluria	201
 dita ippocratiche	costipazione	167.75
-clopidogrel	atorvastatina	895.5
+plavix	atorvastatina	895.5
 adrenalina	norepinefrina	394.5
 costipazione	diarrea	161
 artrite	cirrosi	618.5
 meningite	tubercolosi	871.25
 intontito	etanolo	893.25
-cataratta	nalossone	263.5
+cataratta	naloxone	263.5
 agitazione	morfina	527.5
 anosmia	afonia	845
 sbavare	carbidopa	662.75
@@ -300,8 +300,8 @@ glaucoma	cefalee	841.25
 sincope	debolezza	737
 rigurgito	pirosi	1106.5
 tpa	streptochinasi	762.75
-azitromicina	ciproflossacina	965
-catatonia	nalossone	458
+azitromicina	ciprofloxacina	965
+catatonia	naloxone	458
 artralgia	paracetamolo	869.25
 blefarospasmo	enuresi	321.25
 fotopsia	cefalee	632
@@ -318,7 +318,7 @@ epatomegalia	epatosplenomegalia	1164.75
 anosmia	digossina	293
 meningite	vancomicina	960.25
 ipersonnolenza	russare	764
-prostatorrea	ciproflossacina	981.25
+prostatorrea	ciprofloxacina	981.25
 flatulenza	alitosi	802.25
 rossore	gluconato ferroso	511.5
 dolore intermestruale	afonia	199.25
@@ -339,10 +339,10 @@ dita ippocratiche	aglio	194
 reumatismi	insonnia	384.75
 reumatismi	prednisolone	883.25
 diabete	iperglicemia	1234.75
-fibrillazione	warfarina	1106.75
+fibrillazione	warfarin	1106.75
 emicefalea	nitroglicerina	298.75
 tromboembolia	fibrillazione	1026.5
-emottisi	warfarina	936.75
+emottisi	warfarin	936.75
 osteoporosi	actonel	811.25
 atassia	costipazione	309.25
 micosi	coccidiosi	1137.25
@@ -351,7 +351,7 @@ clonidina	metoprololo	921.25
 appendicite	cefazolina	889.5
 ceftriaxone	cefoxitina	1202.25
 emicefalea	paracetamolo	619.5
-clopidogrel	warfarina	1183.5
+plavix	warfarin	1183.5
 gastroenterite	dissenteria	1255.75
 epilessia	epatomegalia	208.25
 ipoproteinemia	fame	886.5
@@ -364,7 +364,7 @@ dolore alla scapola	nitroglicerina	246.75
 micosi	blastomicosi	1118.5
 nausea	ondansetrone	974
 colestiramina	ezetimibe	1184
-debolezza	sinvinolina	889.75
+debolezza	simvastatina	889.75
 secrezione uretrale	afonia	233.25
 carboplatino	cisplatino	1273.5
 neuropatia	sifilide	1034
@@ -395,13 +395,13 @@ leucopenia	bleomicina	890
 tiroxina	estratto tiroideo	483.75
 aterosclerosi	secrezione uretrale	212.25
 fibrillazione	tiroxina	881.5
-trombofilia	warfarina	846.75
+trombofilia	warfarin	846.75
 emiplegia	cefalee	561.5
 aterosclerosi	odontalgia	224.5
 clono	spasmo	967
 piorrea	nefrite	777.5
-dispnea	nalossone	578.25
-brucellosi	nalossone	199.75
+dispnea	naloxone	578.25
+brucellosi	naloxone	199.75
 meningismo	iperestesia	536.75
 talassemia	gluconato ferroso	892.5
 nitroglicerina	metoprololo	785.25
@@ -410,7 +410,7 @@ iperossia	orlistat	343.5
 mal d'aria	osteoporosi	206.5
 costipazione	diltiazem	178.75
 candidiasi	micosi	1151.25
-sinvinolina	oli pesce	923.5
+simvastatina	oli pesce	923.5
 comatoso	anossemia	668
 stenocardia	cardialgia	863
 vasculiti	convulsioni	372.5
@@ -418,7 +418,7 @@ sincope	alprazolam	618.25
 gonorrea	orlistat	193.75
 iperossia	orlistat	197.25
 schistosomiasi	parassitemia	1187.5
-atorvastatina	sinvinolina	1330.75
+atorvastatina	simvastatina	1330.75
 russare	pomfi	327.5
 anossemia	atassia	496.75
 comatoso	cataratta	265.25
@@ -432,7 +432,7 @@ avitaminosi	inedia	984.75
 micosi	metilprednisolone	388.75
 poliartrite	artralgia	1126
 cardiomiopatia	stenocardia	861.5
-cirrosi	sinvinolina	498
+cirrosi	simvastatina	498
 fame	inedia	1134.5
 ipotiroidismo	comatoso	710.75
 influenza	amantadina	919
@@ -459,7 +459,7 @@ adenite	stridore	666.25
 pirosi	famotidina	893.5
 dita ippocratiche	tiotropio	846.75
 asma	urolitiasi	286
-tromboembolia	warfarina	964.75
+tromboembolia	warfarin	964.75
 fibrillazione	alitosi	348
 glomerulosclerosi	proteinuria	858
 nocturia	diabete	775.25
@@ -506,11 +506,11 @@ nocturia	estetica	353.75
 ipertiroidismo	osteoporosi	493.75
 dislipidemia	iperlipidemia	809.5
 pallore	sbiancamento	955
-voriconazolo	fluossetina	193.25
+voriconazolo	fluoxetina	193.25
 emottisi	protamine	544
 mastodinia	otalgia	807.5
-rantoli	frusemide	742
-anemia	warfarina	623.75
+rantoli	furosemide	742
+anemia	warfarin	623.75
 levodopa	carbidopa	1533.5
 dermatite	aloe vera	695
 coccidiosi	metilprednisolone	388.5
@@ -520,8 +520,8 @@ odontalgia	atassia	255.5
 mannitolo	paracetamolo	223
 otite	meningismo	567
 clono	amfebutamone	317.5
-anemia	clopidogrel	539.5
-oli pesce	sinvinolina	809.5
+anemia	plavix	539.5
+oli pesce	simvastatina	809.5
 nocturia	etanolo	680.25
 debolezza	cortisone	682
 dislipidemia	costipazione	318.5
@@ -532,7 +532,7 @@ peste	caffeina	278.5
 rabbia	sulfadiazina argentica	239
 influenza	pneumonite	898.5
 rabbia	sindrome testa-viso-collo	417.25
-clopidogrel	insulina	286.25
+plavix	insulina	286.25
 giardiasi	manierismo	152.75
 psoriasi	aterosclerosi	169.5
 propanololo	mupirocina	318.75

@@ -7,7 +7,7 @@ scompenso cardiaco congestizio	ipertensione portale	1.69
 edema periferico	edema polmonare	3.92
 calcolo renale	ostruzione uretere	4.69
 mal schiena	stenosi spinale	5.31
-osteofito	noduli di Heberden	4
+osteofito	noduli Heberden	4
 artrite reumatoide	nodulo reumatoide	7.08
 contraccettivo	controindicato	1
 immunizzazione	immunodeficiente	2.15
